@@ -1,0 +1,21 @@
+.button {
+    cursor: pointer;
+    transition: background 0.2s ease;
+    background: rgb(66, 133, 244);
+}
+
+.button:hover {
+    background: rgb(106, 158, 241);
+}
+
+.button:focus, .button:active {
+    outline: none;
+}
+
+.active {
+    background: rgb(9, 196, 18);
+}
+
+.active:hover {
+    background: rgb(81, 245, 89);
+}
